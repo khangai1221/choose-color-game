@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.score-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.score {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item {
+  background-color: gray;
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  cursor: pointer;
+}
